@@ -1,4 +1,8 @@
-## Hi there 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light.svg">
+  <img src="dark.svg" alt="Nitin Dhadwal">
+</picture>## Hi there 👋
 
 <!--
 **Pali912/Pali912** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
