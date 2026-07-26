@@ -1,20 +1,8 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light.svg">
-  <img src="dark.svg" alt="Nitin Dhadwal">
-</picture>## Hi there 👋
+### 👋 A bit about me
 
-<!--
-**Pali912/Pali912** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a Data Science graduate student (M.Tech, SRM University AP) working across data analytics, data governance, and full-stack development. I like building things end-to-end — from REST APIs and cloud-deployed backends to CNN pipelines and real-time voice/LLM systems.
 
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🔭 Currently building **ProjectFlow** — a collaborative task management platform (FastAPI, PostgreSQL, React)
+- 🌱 Also exploring real-time conversational AI (ASR–LLM–TTS pipelines) and semantic search
+- 💬 Ask me about Python, SQL, FastAPI, Power BI, or data governance
+- 📫 Reach me at **dhadwalnitin912@gmail.com**
