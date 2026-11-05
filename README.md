@@ -1,5 +1,7 @@
 <img src="./assets/header.svg" alt="Nitin Dhadwal" width="100%">
 
+<img src="./assets/claw.svg" alt="Animated container-claw portfolio for Nitin Dhadwal" width="100%">
+
 <img src="./assets/about.svg" alt="About" width="100%">
 
 <p align="center">
