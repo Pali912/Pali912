@@ -1,10 +1,8 @@
-<img src="./assets/hero.svg" alt="Nitin Dhadwal, Data Scientist and Developer" width="100%">
+<img src="./assets/console.svg" alt="Nitin Dhadwal, Data Scientist and Developer. A retro console that plays through projects, experience, stack and contact." width="100%">
 
 <p align="center">
   <a href="https://github.com/Pali912">GitHub</a> &nbsp;·&nbsp; <a href="mailto:dhadwalnitin912@gmail.com">dhadwalnitin912@gmail.com</a>
 </p>
-
-<img src="./assets/skills.svg" alt="Toolkit" width="100%">
 
 <p align="center">
   <picture>
