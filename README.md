@@ -1,4 +1,4 @@
-<img src="./assets/studio.svg" alt="Nitin Dhadwal, data scientist, developer and music producer, with a 3D launchpad and MIDI keyboard with RGB lights" width="100%">
+<img src="./assets/studio.webp" alt="Nitin Dhadwal, data scientist, developer and music producer, shown as a slowly rotating 3D drum machine" width="100%">
 
 <p align="center">
   <a href="https://github.com/Pali912">GitHub</a> &nbsp;·&nbsp; <a href="mailto:dhadwalnitin912@gmail.com">dhadwalnitin912@gmail.com</a>
