@@ -1,0 +1,25 @@
+name: Generate rocket
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/rocket.py]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/rocket.py ${{ github.repository_owner }} assets/rocket.svg
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/rocket.svg
+          git diff --cached --quiet || (git commit -m "Update rocket" && git push)
