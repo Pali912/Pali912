@@ -1,0 +1,25 @@
+name: Generate rhythm game
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [scripts/rhythm.py]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python scripts/rhythm.py ${{ github.repository_owner }} assets/v3_rhythm.svg
+      - name: Commit if changed
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add assets/v3_rhythm.svg
+          git diff --cached --quiet || (git commit -m "Update rhythm game" && git push)
